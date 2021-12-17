@@ -9,6 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.demo.kafka.connector.JdbcSourceConnector;
 import com.demo.kafka.consumer.SimpleConsumer;
 import com.demo.kafka.producer.SimpleProducer;
 
@@ -16,8 +17,8 @@ import com.demo.kafka.producer.SimpleProducer;
 @SpringBootApplication
 public class ExamplesApplication implements ApplicationRunner {
 
-    @Autowired
-    private SimpleProducer procedure;
+//    @Autowired
+//    private SimpleProducer procedure;
 
     @Autowired
     private SimpleConsumer consumer;
@@ -30,6 +31,6 @@ public class ExamplesApplication implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
         // TODO Auto-generated method stub
 //        procedure.send("testKafka1", 100);
-        consumer.subscribeTopic(Arrays.asList("testKafka1"));
+        consumer.subscribeTopic(Arrays.asList("LR_USER.HADP_SHADOW_TB"));
     }
 }
