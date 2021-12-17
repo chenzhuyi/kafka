@@ -1,4 +1,4 @@
-package com.imooc.kafka;
+package com.demo.kafka;
 
 import java.util.Arrays;
 
@@ -9,8 +9,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-import com.imooc.kafka.consumer.SimpleConsumer;
-import com.imooc.kafka.producer.SimpleProducer;
+import com.demo.kafka.consumer.SimpleConsumer;
+import com.demo.kafka.producer.SimpleProducer;
 
 @EnableAutoConfiguration
 @SpringBootApplication

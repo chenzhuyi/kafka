@@ -1,4 +1,4 @@
-package com.imooc.kafka.common;
+package com.demo.kafka.common;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

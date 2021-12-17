@@ -1,4 +1,4 @@
-package com.imooc.kafka.config;
+package com.demo.kafka.config;
 
 import java.util.HashMap;
 import java.util.Map;

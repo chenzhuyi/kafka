@@ -1,4 +1,4 @@
-package com.imooc.kafka.consumer;
+package com.demo.kafka.consumer;
 
 
 import lombok.extern.slf4j.Slf4j;

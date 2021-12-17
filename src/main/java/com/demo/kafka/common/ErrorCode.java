@@ -1,4 +1,4 @@
-package com.imooc.kafka.common;
+package com.demo.kafka.common;
 
 public class ErrorCode {
     public final static int SUCCESS = 200;

@@ -1,6 +1,4 @@
-package com.imooc.kafka.producer;
-
-import com.imooc.kafka.common.MessageEntity;
+package com.demo.kafka.producer;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -11,6 +9,8 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+
+import com.demo.kafka.common.MessageEntity;
 
 @Component
 @Slf4j

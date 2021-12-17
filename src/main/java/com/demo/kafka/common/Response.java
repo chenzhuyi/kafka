@@ -1,4 +1,4 @@
-package com.imooc.kafka.common;
+package com.demo.kafka.common;
 
 import lombok.Getter;
 import lombok.Setter;
